@@ -1,0 +1,29 @@
+.bg-shs{
+    background: #4c4c4c;
+}
+#footer .footerbar{
+    padding: 60px 80px;
+    font-size: 13px;
+    color:#999;
+}
+#footer .footerbar a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer .footerbar a:hover{
+    color:#999
+}
+#footer .footerbar ul li~li div{
+    border-left: 1px solid #ffffff;
+}
+.mt-20{
+    margin-bottom:20px;
+}
+#footer .footerbar div:nth-child(2) ul:first-child li{
+    padding: 0 15px;
+    font-size: 14px;
+}
+#footer .footerbar div:nth-child(3) p{
+    border-top:1px solid #999;
+    padding-top: 20px;
+}

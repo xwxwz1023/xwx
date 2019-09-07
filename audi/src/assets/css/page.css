@@ -1,0 +1,134 @@
+#page .stage{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+#first-state a{
+    border:0;
+     background: #ffffff;
+     color: #000;
+    padding:20px 100px !important;
+     text-decoration: none;
+}
+#first-state a:hover{
+    background: #dddddd;
+}
+
+#middle-state a{
+
+    padding: 20px 100px;
+    color: #fff !important;
+    border:1px solid #ffffff !important;
+    text-decoration: none;
+}
+#middle-state a:hover{
+    border:0;
+    color: #888 !important;
+    border:1px solid #888 !important;
+}
+
+#third-state a{
+    border:0 !important;
+    color:#000000;
+    text-decoration: none;
+}
+#third-state a:hover{
+    color:#888888;
+}
+.bg-hs{
+    background: rgba(235, 240, 245, 0.71);
+}
+#searchjxs a{
+    border:0;
+    color:#fff !important;
+    padding:20px 100px !important;
+    background: #000;
+    text-decoration: none;
+}
+#searchjxs a:hover{
+    background: #999;
+
+}
+#audi-list ul{
+    list-style: none;
+}
+#audi-list ul li ul li{
+    padding: 10px 0;
+}
+#audi-list ul li ul li a{
+    border:0 !important;
+   color: #000000;
+    text-decoration: none;
+
+}
+#audi-list ul li ul li:first-child~li{
+    font-size: 0.8rem;
+}
+#carshow div ul li a img{
+    transition: .5s linear;
+}
+#carshow div ul li a:hover img{
+    transform: scale(1.1);
+}
+#carshow div ul  li a{
+    border:0;
+    color:#4c4c4c;
+}
+#carshow div ul  li a:hover{
+    border:0;
+}
+#carshow div ul li a:hover p{
+    font-weight: 700;
+    color:#333;
+}
+#carshow div div{
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+#carshow div div ul{
+    position: absolute;
+    left:-30px;
+    transition: 0.6s linear;
+}
+#carshow img{
+    width: 215px;
+}
+.zjt{
+    width: 40px !important;
+    height: 40px;
+    top:22%;
+    position: absolute;
+    left:0px;
+    z-index: 888;
+    display: none;
+}
+.yjt{
+    width: 40px !important;
+    height: 40px;
+    top:22%;
+    position: absolute;
+    right:0px;
+    z-index: 889;
+}
+.text-hs{
+    color:#999;
+    cursor: pointer;
+}
+.text-hs:hover{
+    color:#666;
+}
+.car-underline{
+    color:#000000 !important;
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+}
+.cx{
+    width: 100%;
+}
+.cslx{
+    width: 0;
+    overflow: hidden;
+    transition: all 1s linear;
+}
